@@ -1,0 +1,41 @@
+input{
+    display: none;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
+nav label{
+        padding: 10px;
+    border: 2px solid;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#lgt:checked~.nis{
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+#drk:checked~.nis{
+    background-color: rgb(27, 27, 32);
+    color:blanchedalmond;
+}
+#cstm:checked~.nis{
+    background-color: rgba(234, 164, 60, 0.841);
+    color: rgb(23, 19, 19);
+}
+
+.nis{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    padding-top: 2rem;
+}
