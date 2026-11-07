@@ -39,3 +39,71 @@ nav label{
     z-index: -1;
     padding-top: 2rem;
 }
+header{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(24, 151, 254);
+    margin:  0 12px;
+}
+
+nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin:  0 12px;
+}
+nav a:hover{
+    color: darkolivegreen;
+}
+
+.mk{
+    text-decoration: none;
+    color: rgb(17, 123, 72);
+    margin:  0 12px;
+    border-radius: 7px;
+    width: 240px;
+}
+.mk img{
+    width: 100%;
+}
+.mk:hover{
+    color: rgb(83, 23, 78);
+}
+
+#oo{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+#mew{
+    background: url(https://reluctantgourmet.com/wp-content/uploads/2010/05/sesame-seeds-black-toasted.jpeg) center/cover no-repeat; 
+    height: 74vh;
+    color: beige;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+#mew div{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 11px
+    
+}
+.mk:hover{
+    transform: scale(1.1);
+}
+
+html, body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+}
