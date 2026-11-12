@@ -40,9 +40,7 @@ nav label{
     padding-top: 2rem;
 }
 header{
-    display: flex;
-    
-    
+    display: flex;   
     justify-content: space-between;
     align-items: center;
     padding: 12px;
@@ -80,8 +78,6 @@ nav a:hover{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
 }
-
-
 
 #mew{
     background: url(https://reluctantgourmet.com/wp-content/uploads/2010/05/sesame-seeds-black-toasted.jpeg) center/cover no-repeat; 
