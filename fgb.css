@@ -97,7 +97,7 @@ nav a:hover{
 #mew {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
 }
 
 .mk:hover{
