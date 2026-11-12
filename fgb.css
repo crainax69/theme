@@ -98,6 +98,13 @@ nav a:hover{
     padding: 11px
     
 }
+
+#mew {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .mk:hover{
     transform: scale(1.1);
 }
